@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Condensed', sans-serif ;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
+  background-size: cover;
+  
+}
+
+.content {
+  background: #000000;
+  opacity: 0.8;
+  border-radius: 25px;
+  padding: 25px;
+  width: 95%;
+  max-width: 450px;
+}
+
+input {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 25px;
+  font-size: 20px;
+  background-color: #7c7c7c2b;
+  color: #fff;
+  width: calc(100% - 100px);
+}
+
+button {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 50px;
+  background-color: #7c7c7c2b;
+  cursor: pointer;
+  float: right;
+}
+
+.img-busca {
+  width: 23px; 
+}
+
+h2 {
+  font-family: 'Poetsen One', sans-serif;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.caixa-media {
+  margin-top: 30px;
+}
+
+.temp {
+  font-size: 20px;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.caixa-menor {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.descrição {
+  color: #fff;
+  margin-left: 20px;
+  text-transform: capitalize;
+}
+
+.Umidade {
+  color: #fff;
+}
